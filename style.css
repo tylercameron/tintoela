@@ -1,0 +1,126 @@
+/*
+Theme Name: Haven Child
+Description: Haven is created by <a href="https://themefuse.com/">ThemeFuse</a>. Child themes are the recommended way of making modifications to a theme. <a href="http://codex.wordpress.org/Child_Themes">Reade More</a>
+Author: ThemeFuse
+Author URI: https://themefuse.com/
+Template: haven
+Version: 1.0
+Text Domain: the-core
+Tags: left-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+/* ================ MAIN NAV ================ */
+.fw-wrap-logo .fw-site-logo img {
+    width: 225px;
+}
+.header-2 .fw-header-main .fw-site-navigation > ul > li > a {
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .header-2 .fw-header-main .fw-container {
+        padding: 20px;
+    }
+    .fw-wrap-logo .fw-site-logo img {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .item.fw-fade-slider-content-align-left.lazyloaded {
+        min-height: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .header-2 .fw-header-main .fw-container {
+        position:  relative;
+    }
+
+    /* .header-2 .fw-header-main .fw-wrap-logo {
+        max-width: 150px !important;
+        width:  150px !important;
+    } */
+
+    .fw-wrap-logo .fw-site-logo img {
+        max-width: 150px;
+    }
+
+    .header-2 .fw-container .mmenu-link {
+        position:  absolute;
+        left: -50px;
+        top: 35px;
+        width: 40px !important;
+    }
+}
+
+/* ================ HOME PAGE REV SLIDER ================ */
+section.fw-main-row-custom.tf-sh-2a24729400113cf7c2ac056d488aacd5 {
+    margin-top: 25px;
+}
+ul.tp-revslider-mainul {
+    height: 85% !important;
+}
+.fw-col-sm-8.tf-sh-87ff06bf5fcb940500b2a9ff337b0bdb {
+    margin-top: 40px;
+}
+
+div.tf-sh-1bb3e1628ae30c95a44c4dbba110e1b6 {
+    padding-top:  40px;
+}
+
+.tf-sh-1bb3e1628ae30c95a44c4dbba110e1b6 .fw-special-subtitle {
+    margin-top: 0;
+}
+
+.tf-sh-1bb3e1628ae30c95a44c4dbba110e1b6 .fw-heading.fw-heading-left.fw-heading-with-subtitle.tf-sh-017e422f7ec92e134e28f59db4ebdf18 {
+    margin-bottom: 5px;
+}
+
+.tf-sh-1bb3e1628ae30c95a44c4dbba110e1b6 h1.fw-special-title {
+    font-size: 60px;
+    position:  relative;
+}
+
+.tf-sh-1bb3e1628ae30c95a44c4dbba110e1b6 h1.fw-special-title:after {
+    position:  absolute;
+    content:  '';
+    bottom:  0;
+    left:  0;
+    border-bottom: 2px solid #d1367e;
+    width: 90px;
+}
+
+a.fw-btn.tf-sh-2da12e5ee2d14df5d21e62729ee1bf10.fw-btn-md.home-banner-btn.fw-btn-side-by-side.fw-btn-2 {
+    margin-top: 20px;
+}
+
+/* ================ HOME PAGE 3 IMG + TEXT ================ */
+.below-img-text p {
+    margin-top: 15px;
+}
+
+/* ================ HOME PAGE AMENITIES SECTION ================ */
+section#room-service-title {
+    height:  auto;
+    margin-top: 50px;
+}
+
+section#room-service-title .fw-heading {
+    margin-bottom: 10px;
+}
+
+.fw-text-box.tf-sh-adb30d6335f667d156a07a77bb6c780a {
+    height:  70px;
+    margin-top: 20px;
+    display:  flex;
+    flex-direction:  column;
+    justify-content: flex-end;
+}
+
+.fw-icon-title-name-inner {
+    display:  flex;align-items:  center;
+}
+
+.tf-sh-2a27703e1bfd5147efe8888d8a4ed05d {
+    margin-top: 20px;
+}
